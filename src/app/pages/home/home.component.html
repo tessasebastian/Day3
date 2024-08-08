@@ -1,6 +1,6 @@
 <div>
     <div class="header">
-        <div class="navbar" >
+        <!--div class="navbar" >
             <ul class="nav justify-content-center" >
                 <div class="logo">
                     <li class="nav-logo" >
@@ -12,14 +12,14 @@
                     <a class="nav-link dropdown-toggle" routerLink="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         About Us
                     </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" routerLink="#">About Us</a></li>
+                    <ul class="dropdown-menu" style="background-color: black;">
+                        <li><a class="dropdown-item" style="color: aliceblue;"  routerLink="#">About Us</a></li>
                         <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" routerLink="/timeline">Timeline</a></li>
+                        <li><a class="dropdown-item" style="color: aliceblue;"  [routerLink]="['/news']">News</a></li>
                         <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" [routerLink]="['/news']">News</a></li>
+                        <li><a class="dropdown-item" style="color: aliceblue;"  routerLink="">Timeline</a></li>
                         <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" routerLink="#">Giving Back</a></li>
+                        <li><a class="dropdown-item" style="color: aliceblue;"  routerLink="#">Giving Back</a></li>
                     </ul>
                 </li>
 
@@ -28,20 +28,20 @@
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Industries
                     </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" [routerLink]="['aerospace']">Aerospace & Defence</a></li>
+                    <ul class="dropdown-menu" style="background-color: black;">
+                        <li><a class="dropdown-item" style="color: aliceblue;" [routerLink]="['aerospace']">Aerospace & Defence</a></li>
                         <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Banking & Financial Service</a></li>
+                        <li><a class="dropdown-item" style="color: aliceblue;"  routerLink="/banking">Banking & Financial Service</a></li>
                         <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Healthcare</a></li>
+                        <li><a class="dropdown-item" style="color: aliceblue;"  href="#">Healthcare</a></li>
                         <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Insurance</a></li>
+                        <li><a class="dropdown-item" style="color: aliceblue;"  href="#">Insurance</a></li>
                         <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Locomotive</a></li>
+                        <li><a class="dropdown-item" style="color: aliceblue;"  href="#">Locomotive</a></li>
                         <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Industrial</a></li>
+                        <li><a class="dropdown-item" style="color: aliceblue;"  href="#">Industrial</a></li>
                         <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Mobility</a></li>
+                        <li><a class="dropdown-item" style="color: aliceblue;"  href="#">Mobility</a></li>
                     </ul>
                 </li>
             
@@ -49,23 +49,20 @@
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                      Insights
                     </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <ul class="dropdown-menu" style="background-color: black;">
+                        <li><a class="dropdown-item" style="color: aliceblue;" href="#">Blogs</a></li>
+                        <li><a class="dropdown-item" style="color: aliceblue" href="#">Blogs</a></li>
+                        <li><a class="dropdown-item" style="color: aliceblue" href="#">Podcasts</a></li>
                         <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><a class="dropdown-item" style="color: aliceblue" href="#">Succes Stories</a></li>
                     </ul>
                  </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Careers
+                <li class="nav-item ">
+                    <a class="nav-link " routerLink="contact" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Contacts
                     </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
+                    
+                    
                 </li>
             </ul>
           
@@ -73,8 +70,7 @@
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi" viewBox="0 0 16 16">
             <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
          </svg>
-        
-      </div>
+        </div-->
      
     </div>
 
@@ -151,68 +147,5 @@
            </div>
     </div>
 
-    <div class="footer">
-        <footer>
-            <div class="footer-container">
-              <div class="footer-column">
-                <h3>Quick Links</h3>
-                <ul>
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">About Us</a></li>
-                  <li><a href="#">Insights</a></li>
-                  <li><a href="#">Careers</a></li>
-                  <li><a href="#">Contact Us</a></li>
-                  <li><a href="#">Blogs</a></li>
-                  <li><a href="#">Whitepapers</a></li>
-                  <li><a href="#">Webinars</a></li>
-                  <li><a href="#">Podcasts</a></li>
-                </ul>
-              </div>
-              <div class="footer-column">
-                <h3>Industries</h3>
-                <ul>
-                  <li><a href="#">Mobility</a></li>
-                  <li><a href="#">Aerospace & Defence</a></li>
-                  <li><a href="#">Locomotive</a></li>
-                  <li><a href="#">Industrial</a></li>
-                  <li><a href="#">Banking & Financial Service</a></li>
-                  <li><a href="#">Insurance</a></li>
-                  <li><a href="#">Healthcare</a></li>
-                </ul>
-              </div>
-              <div class="footer-column">
-                <h3>Services</h3>
-                <ul>
-                  <li><a href="#">Cloud Services</a></li>
-                  <li><a href="#">Cyber Security</a></li>
-                  <li><a href="#">Data Engineering</a></li>
-                  <li><a href="#">DevOps</a></li>
-                  <li><a href="#">GIS</a></li>
-                </ul>
-              </div>
-              <div class="footer-column">
-                <h3>Get updates on our Insights</h3>
-                <p>Stay connected with NeST Digital to get timely updates of our thought leadership posts by filling in the details below.</p>
-                <form action="#" method="post">
-                  <input type="text" placeholder="Name" name="name" required>
-                  <input type="email" placeholder="Email" name="email" required>
-                  <button type="submit">SEND</button>
-                </form>
-                <div class="contact-info">
-                  <p>Get in touch with us</p>
-                  <a href="#" class="contact-button">CONTACT US</a>
-                  <p>+91-484-4203333<br>
-                  <a href="mailto:connect.nestdigital@nestgroup.net">connect.nestdigitalnestgroup.net</a></p>
-                </div>
-              </div>
-            </div>
-            <!--div class="footer-social">
-              <a href="#"><img src="path/to/facebook-icon.png" alt="Facebook"></a>
-              <a href="#"><img src="path/to/twitter-icon.png" alt="Twitter"></a>
-              <a href="#"><img src="path/to/linkedin-icon.png" alt="LinkedIn"></a>
-              <a href="#"><img src="path/to/instagram-icon.png" alt="Instagram"></a>
-              <a href="#"><img src="path/to/youtube-icon.png" alt="YouTube"></a>
-            </div-->
-          </footer>
-    </div>
+    
 </div>
